@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*body*/
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #d4e2eb;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+/*header*/
+nav{
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #d4e2eb;
+    text-align: right;
+    z-index: 10;
+}
+
+.logo{
+    position: fixed;
+    float: left;
+    left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    z-index: 50;
+    color: #61A0D3;
+}
+
+ul.navigationHaut li{
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight:400;
+    cursor: pointer;
+    padding: 30px 30px 18px 30px;
+}
+
+ul.navigationHaut div{
+   display: inline;
+}
+
+ul.navigationHaut li:hover{
+    background-color:#61A0D3;
+    color: #FAFAFA;
+    transition-duration: 0.7s;
+}
+
+/*sections 1*/
+
+h1{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    border: #FAFAFA;
+    border-style: solid;
+    border-width: 4px;
+    position: absolute;
+    height: 100px;
+    width: 1400px;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    backdrop-filter: blur(2px);
+
+}
+.section1{
+    text-align: center;
+    margin: 0;
+    background-image: url("img/VendeurAutomobile5.jpg");
+    height: 600px;
+    line-height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FAFAFA;
+    padding: 0px;
+}
+section {
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    padding: 0;
+    margin: 0;
+}
+
+/*sections 2*/
+.achatVehicule{
+    background-color: #FAFAFA;
+    padding: 20px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+.achatVehicule h2{
+    padding: 10px;
+}
+.range{
+    height: 400px;
+    padding-top: 20px;
+}
+
+.voiture01{
+    position: absolute;
+    left: 10%;
+}
+
+.voiture02{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.voiture03{
+    position: absolute;
+    right: 10%;
+}
+
+.v{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    height: 350px;
+}
+
+.v:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.4) 0px 30px 60px -30px;
+    transition-duration: 2s;
+}
+
+.v img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.buttonV{
+    background-color: #d4e2eb;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 35px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.buttonV:hover{
+    background-color: #61A0D3;
+    color: #FAFAFA;
+    transition-duration: 0.7s;
+}
+
+
+
+.prix {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+
+.kilo{
+    position: absolute;
+    right: 20px;
+    bottom: -10px;
+}
+
+.nom{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 25px;
+}
+
+.annee{
+    position: absolute;
+    left: 20px;
+}
+
+/*section 3*/
+.description{
+    padding:50px 0px 30px 0px;
+
+}
+
+.droite{
+    height: 400px;
+    padding: 20px;
+    animation: gaucheADroite linear;
+    animation-timeline: view();
+    animation-range-start: 0%;
+    animation-range-end: 30%;
+
+}
+
+.droite h2{
+    position: absolute;
+    left: 21%;
+    padding: 20px;
+    font-weight: 500;
+    color: #61A0D3;
+}
+
+.droite img{
+    position: absolute;
+    right: 10%;
+}
+.droite p{
+    position: absolute;
+    width: fit-content;
+    max-width: 700px;
+    text-align: justify;
+    left: 7.5%;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.gauche{
+    height: 400px;
+    padding: 20px;
+    animation: droiteAGauche linear;
+    animation-timeline: view();
+    animation-range-start: 0%;
+    animation-range-end: 30%;
+}
+
+.gauche h2{
+    position: absolute;
+    right: 17%;
+    padding: 20px;
+    font-weight: 500;
+    color: #538BCC;
+}
+
+.gauche img{
+    position: absolute;
+    left: 10%;
+}
+
+.gauche p{
+    position: absolute;
+    width: fit-content;
+    max-width: 700px;
+    text-align: justify;
+    right: 7.5%;
+    padding: 50px;
+    font-size: 20px;
+}
+
+/*footer*/
+
+footer ul li{
+    display: inline;
+    list-style: none;
+    padding: 0px 40px 0px 40px;
+}
+
+
+/*animation*/
+@keyframes gaucheADroite {
+    from {transform: translateX(-100%);}
+    to {transform: translateX(0);}
+}
+
+@keyframes droiteAGauche {
+    from {transform: translateX(100%);}
+    to {transform: translateX(0);}
+}
+
+/*plus grand ecran*/
+@media (min-width: 2100px) {
+    .droite p{
+        left: 15%;
+    }
+    .droite img{
+        right: 15%;
+    }
+    .droite h2{
+        left: 26%
+    }
+    .gauche p{
+        right: 12.5%;
+    }
+    .gauche img{
+        left: 17%
+    }
+    .gauche h2{
+        right: 21%;
+    }
+    .voiture01{
+        left: 15%;
+    }
+    .voiture03{
+        position: absolute;
+        right: 15%;
+    }
+}
