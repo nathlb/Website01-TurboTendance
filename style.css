@@ -281,6 +281,8 @@ footer ul li{
 }
 
 /*plus grand ecran*/
+/*Cette partie du code bug lorsque je met mon site en ligne avec github*/
+/*
 @media (min-width: 2100px) {
     .droite p{
         left: 15%;
@@ -306,5 +308,5 @@ footer ul li{
     .voiture03{
         position: absolute;
         right: 15%;
-    }
+    }*/
 }
