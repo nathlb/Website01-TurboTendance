@@ -98,22 +98,22 @@ h2{
 /*sections 2*/
 .achatVehicule{
     background-color: #FAFAFA;
-    padding: 20px;
+    padding: 10px;
     padding-bottom: 40px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
 }
 .achatVehicule h2{
     padding: 10px;
 }
 .range{
-    height: 400px;
+    height: 350px;
     padding-top: 20px;
 }
 
 .voiture01{
     position: absolute;
-    left: 10%;
+    left: 7%;
 }
 
 .voiture02{
@@ -124,14 +124,14 @@ h2{
 
 .voiture03{
     position: absolute;
-    right: 10%;
+    right: 7%;
 }
 
 .v{
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
-    height: 350px;
+    height: 300px;
 }
 
 .v:hover{
@@ -187,6 +187,7 @@ h2{
 
 .annee{
     position: absolute;
+    padding-top: 5px;
     left: 20px;
 }
 
@@ -221,11 +222,11 @@ h2{
 .droite p{
     position: absolute;
     width: fit-content;
-    max-width: 700px;
+    max-width: 500px;
     text-align: justify;
     left: 7.5%;
     padding: 50px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .gauche{
@@ -253,11 +254,11 @@ h2{
 .gauche p{
     position: absolute;
     width: fit-content;
-    max-width: 700px;
+    max-width: 500px;
     text-align: justify;
     right: 7.5%;
     padding: 50px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /*footer*/
