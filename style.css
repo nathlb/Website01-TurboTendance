@@ -182,13 +182,14 @@ h2{
 .nom{
     position: absolute;
     left: 20px;
-    bottom: 15px;
+    bottom: 10px;
     font-size: 25px;
 }
 
 .annee{
     position: absolute;
     left: 20px;
+    bottom: -5px;
 }
 
 /*section 3*/
